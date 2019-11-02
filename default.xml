@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="thud"/>
+  <default sync-j="4" revision="warrior"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/jumpnow" name="bbb"/>
+  <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
 
-  <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="thud" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
 
-  <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="thud" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="bbb" revision="warrior" name="meta-bbb" path="sources/meta-bbb"/>
+  <project remote="meta-qt5" revision="warrior" name="meta-qt5" path="sources/meta-qt5"/>
+
+  <project remote="freescale" revision="thud" name="fls-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
-
-  <project remote="freescale" revision="thud" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="thud" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="thud" name="Documentation" path="sources/Documentation"/>
 
 </manifest>
