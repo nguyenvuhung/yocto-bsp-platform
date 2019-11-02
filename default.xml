@@ -16,7 +16,7 @@
   <project remote="bbb" revision="warrior" name="meta-bbb" path="sources/meta-bbb"/>
   <project remote="meta-qt5" revision="warrior" name="meta-qt5" path="sources/meta-qt5"/>
 
-  <project remote="freescale" revision="thud" name="fls-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="thud" name="fsl-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
