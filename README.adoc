@@ -1,4 +1,4 @@
-= FSL Community BSP
+= BBB Community BSP
 
 To get the BSP you need to have `repo` installed and use it as:
 
@@ -13,9 +13,9 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir fsl-community-bsp
-$: cd fsl-community-bsp
-$: repo init -u https://github.com/Freescale/fsl-community-bsp-platform -b thud
+$: mkdir bbb-community-bsp
+$: cd bbb-community-bsp
+$: repo init -u hhttps://github.com/nguyenvuhung/bbb-community-bsp-platform -b warrior
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
@@ -28,7 +28,7 @@ $: bitbake core-image-minimal
 
 You can use any directory to host your build.
 
-The source code is checked out at `fsl-community-bsp/sources`.
+The source code is checked out at `bbb-community-bsp/sources`.
 
 == Contributing
 
