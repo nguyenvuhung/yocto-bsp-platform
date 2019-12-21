@@ -15,7 +15,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir bbb-community-bsp
 $: cd bbb-community-bsp
-$: repo init -u hhttps://github.com/nguyenvuhung/bbb-community-bsp-platform -b warrior
+$: repo init -u https://github.com/nguyenvuhung/bbb-community-bsp-platform -b warrior
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
