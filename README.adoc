@@ -1,4 +1,4 @@
-= BBB Community BSP
+= Mediatek BSP
 
 To get the BSP you need to have `repo` installed and use it as:
 
@@ -13,9 +13,9 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir bbb-community-bsp
-$: cd bbb-community-bsp
-$: repo init -u https://github.com/nguyenvuhung/bbb-community-bsp-platform -b warrior
+$: mkdir mediatek-bsp
+$: cd mediatek-bsp
+$: repo init -u https://github.com/nguyenvuhung/bbb-community-bsp-platform -b rocko_mediatek
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
@@ -23,12 +23,12 @@ At the end of the commands you have every metadata you need to start work with.
 To start a simple image build:
 
 [source,console]
-$: MACHINE=beaglebone DISTRO=poky source setup-environment build
-$: bitbake core-image-minimal
+$: MACHINE=mt7623-bpi-r2 DISTRO=poky source setup-environment build
+$: bitbake core-image-mtk-swu
 
 You can use any directory to host your build.
 
-The source code is checked out at `bbb-community-bsp/sources`.
+The source code is checked out at `Mediatek-bsp/sources`.
 
 == Contributing
 
@@ -38,7 +38,7 @@ Mailing list::
     https://lists.yoctoproject.org/listinfo/meta-freescale
 
 Source code::
-    https://github.com/Freescale/fsl-community-bsp-platform
+    https://github.com/nguyenvuhung/bbb-community-bsp-platform
 
 When creating patches, please use something like:
 

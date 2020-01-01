@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="warrior"/>
+  <default sync-j="4" revision="rocko_mediatek"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/nguyenvuhung" name="bbb-base"/>
-  <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/jumpnow" name="bbb"/>
-  <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
+  <remote fetch="https://github.com/nguyenvuhung" name="mediatek-base"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="https://github.com/sbabic" name="swupdate"/>
+  <remote fetch="https://gitlab.com/wtolkien" name="meta-mediatek"/>
 
-  <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
-
-  <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
-
-  <project remote="bbb" revision="warrior" name="meta-bbb" path="sources/meta-bbb"/>
-  <project remote="meta-qt5" revision="warrior" name="meta-qt5" path="sources/meta-qt5"/>
-
-  <project remote="bbb-base" revision="master" name="bbb-community-bsp-base" path="sources/base">
+  <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="swupdate" revision="master" name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="meta-mediatek" revision="master" name="meta-mediatek" path="sources/meta-mediatek"/>
+  <project remote="mediatek-base" revision="rocko_mediatek" name="bbb-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
