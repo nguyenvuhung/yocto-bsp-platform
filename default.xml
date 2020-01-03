@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="rocko_mediatek"/>
+  <default sync-j="4" revision="sumo_mediatek"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/nguyenvuhung" name="mediatek-base"/>
@@ -9,11 +9,11 @@
   <remote fetch="https://github.com/sbabic" name="swupdate"/>
   <remote fetch="https://gitlab.com/wtolkien" name="meta-mediatek"/>
 
-  <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
-  <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="swupdate" revision="master" name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="yocto" revision="sumo" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="sumo" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="swupdate" revision="sumo" name="meta-swupdate" path="sources/meta-swupdate"/>
   <project remote="meta-mediatek" revision="master" name="meta-mediatek" path="sources/meta-mediatek"/>
-  <project remote="mediatek-base" revision="rocko_mediatek" name="bbb-community-bsp-base" path="sources/base">
+  <project remote="mediatek-base" revision="sudo_mediatek" name="bbb-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>

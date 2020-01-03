@@ -15,7 +15,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir mediatek-bsp
 $: cd mediatek-bsp
-$: repo init -u https://github.com/nguyenvuhung/bbb-community-bsp-platform -b rocko_mediatek
+$: repo init -u https://github.com/nguyenvuhung/bbb-community-bsp-platform -b sumo_mediatek
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
