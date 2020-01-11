@@ -7,7 +7,7 @@
   <remote fetch="https://github.com/nguyenvuhung" name="mediatek-base"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/sbabic" name="swupdate"/>
-  <remote fetch="https://gitlab.com/wtolkien" name="meta-mediatek"/>
+  <remote fetch="https://github.com/nguyenvuhung" name="meta-mediatek"/>
   <remote fetch="https://gitlab.com/wtolkien" name="meta-vyos"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
 
