@@ -3,9 +3,9 @@
 
   <default sync-j="4" revision="draf"/>
 
-  <remote fetch="git@github.com:nguyenvuhung" name="meta-mediatek"/>
+  <remote fetch="git://github.com/nguyenvuhung" name="meta-mediatek"/>
 
-  <project remote="git@github.com:nguyenvuhung" revision="master" name="meta-mediatek" path="sources/meta-mediatek"/>
+  <project remote="meta-mediatek" revision="master" name="meta-mediatek" path="sources/meta-mediatek"/>
 
 
 
