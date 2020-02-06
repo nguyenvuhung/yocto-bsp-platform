@@ -24,7 +24,7 @@
   <project remote="meta-quectel" revision="sumo" name="meta-quectel" path="sources/meta-quectel"/>
   <project remote="meta-myqt5" revision="sumo" name="meta-myqt5" path="sources/meta-myqt5"/>
 
-  <project remote="mediatek-base" revision="sumo_mediatek" name="bbb-community-bsp-base" path="sources/base">
+  <project remote="mediatek-base" revision="master" name="bbb-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
