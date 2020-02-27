@@ -6,11 +6,16 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/mem" name="oe-meta-go"/>
+  <remote fetch="https://github.com/mendersoftware" name="meta-mender"/>
 
-  <project remote="yocto" revision="zeus" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="thud" name="meta-freescale" path="sources/meta-freescale"/>
 
-  <project remote="oe" revision="zeus" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <project remote="oe-meta-go" revision="master" name="oe-meta-go" path="sources/oe-meta-go"/>
+  <project remote="meta-mender" revision="warrior" name="meta-mender" path="sources/meta-mender"/>
 
   <project remote="freescale" revision="thud" name="fsl-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
