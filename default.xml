@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="zeus_mediatek"/>
+  <default sync-j="4" revision="zeus_mediatek-tensorflow"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
@@ -12,6 +12,7 @@
   <remote fetch="https://github.com/nguyenvuhung" name="meta-myqt5"/>
   <remote fetch="git://git.yoctoproject.org" name="meta-security"/>
   <remote fetch="https://github.com/nguyenvuhung" name="mediatek-base"/>
+  <remote fetch="https://github.com/Wind-River" name="meta-tensorflow"/>
 
   <project remote="yocto" revision="zeus" name="poky" path="sources/poky"/>
   <project remote="oe" revision="zeus" name="meta-openembedded" path="sources/meta-openembedded"/>
@@ -21,6 +22,7 @@
   <project remote="meta-qt5" revision="zeus" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="meta-myqt5" revision="zeus" name="meta-myqt5" path="sources/meta-myqt5"/>
   <project remote="meta-security" revision="zeus" name="meta-security" path="sources/meta-security"/>
+  <project remote="meta-tensorflow" revision="zeus" name="meta-tensorflow" path="sources/meta-tensorflow"/>
   <project remote="mediatek-base" revision="zeus_mediatek" name="bbb-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
