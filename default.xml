@@ -6,7 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://github.com/nguyenvuhung" name="bbb-base"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="https://github.com/jumpnow" name="bbb"/>
+  <remote fetch="https://github.com/nguyenvuhung" name="bbb"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
   <remote fetch="git://git.yoctoproject.org" name="meta-security"/>
 
