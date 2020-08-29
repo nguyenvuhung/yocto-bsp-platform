@@ -27,7 +27,7 @@ $: PATH=${PATH}:~/bin
 $: mkdir mediatek-bsp
 $: cd mediatek-bsp
 $: repo init -u https://github.com/nguyenvuhung/yocto-bsp-platform -b zeus_mediatek
-$: repo sync -j"$(nproc --all)"
+$: repo sync -j$(nproc)
 
 At the end of the commands you have every metadata you need to start work with.
 
