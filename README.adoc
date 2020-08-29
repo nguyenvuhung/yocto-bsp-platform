@@ -1,5 +1,16 @@
 = Mediatek BSP
 
+Ubuntu Host: 16.04 or 18.04
+
+Install some dependence package 
+
+[source,console]
+$: sudo apt-get update && \
+    sudo apt-get -y install gawk wget git-core diffstat unzip texinfo gcc-multilib \
+    build-essential chrpath socat cpio python python3 python3-pip python3-pexpect \
+    xz-utils debianutils iputils-ping libsdl1.2-dev xterm tar locales curl
+
+
 To get the BSP you need to have `repo` installed and use it as:
 
 Install the `repo` utility:
