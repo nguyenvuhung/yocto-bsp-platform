@@ -16,7 +16,7 @@
   <project remote="yocto" revision="dunfell" name="poky" path="sources/poky"/>
   <project remote="oe" revision="dunfell" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="swupdate" revision="dunfell" name="meta-swupdate" path="sources/meta-swupdate"/>
-  <project remote="meta-mediatek" revision="zeus" name="meta-mediatek" path="sources/meta-mediatek"/>
+  <project remote="meta-mediatek" revision="dunfell" name="meta-mediatek" path="sources/meta-mediatek"/>
   <project remote="meta-vyos" revision="master" name="meta-vyos" path="sources/meta-vyos"/>
   <project remote="meta-qt5" revision="dunfell" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="meta-myqt5" revision="zeus" name="meta-myqt5" path="sources/meta-myqt5"/>
