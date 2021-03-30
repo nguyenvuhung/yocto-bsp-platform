@@ -15,7 +15,7 @@
 
   <project remote="yocto" revision="zeus" name="poky" path="sources/poky"/>
   <project remote="oe" revision="zeus" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="swupdate" revision="zeus" name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="swupdate" revision="8ad6a75e1778cdda671b3d6aea2a9692613020ec" name="meta-swupdate" path="sources/meta-swupdate"/>
   <project remote="meta-mediatek" revision="zeus" name="meta-mediatek" path="sources/meta-mediatek"/>
   <project remote="meta-vyos" revision="master" name="meta-vyos" path="sources/meta-vyos"/>
   <project remote="meta-qt5" revision="zeus" name="meta-qt5" path="sources/meta-qt5"/>
